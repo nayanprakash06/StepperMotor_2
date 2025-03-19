@@ -10,7 +10,7 @@ IN4 = Pin(15,Pin.OUT)
 
 pins = [IN1,IN2,IN3,IN4]
 steps = [[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]]
-
+step_2 = [[1,1,0,0],[0,1,1,0],[0,0,1,1],[1,0,0,1]]
 while True :
     for step in steps :
         for pin in range(len(pins)):
