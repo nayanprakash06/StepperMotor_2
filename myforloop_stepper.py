@@ -1,4 +1,4 @@
-# Write your code here :-)
+code# Write your code here :-)
 
 from machine import Pin
 from time import sleep
